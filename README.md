@@ -9,7 +9,7 @@ Preparation
 6. Add startup.sh to run on startup each time RPI is booted
 
 ```
-chmod +x /location/startup.sh
+chmod +x /user_specified_location/startup.sh
 $ crontab -e
 ```
 
