@@ -9,7 +9,7 @@ f= open("filter.txt","w")
 def main():
         def read_data_5s():
                 w=open("output.txt", "w")
-                result = subprocess.Popen(["sudo", "../bin/demo_ranging_controlee"], stdout=PIPE, stderr=PIPE, text=True)
+                result = subprocess.Popen(["sudo", "../bin/demo_ranging_controlee"], stdout=PIPE, stderr=PIPE, text=True)  #change this based on location of demo_ranging_controlee
                 try:
                     stdout, stderr = result.communicate(timeout=3)
                 except TimeoutExpired:
