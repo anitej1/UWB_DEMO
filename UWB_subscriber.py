@@ -9,7 +9,7 @@ MQTT_CONTROL_TOPIC = "audio/control"            # Used to receive control comman
 MQTT_POSITION_REPLY_TOPIC = "audio/position_reply"  # Used to reply with current playback position
 
 # Audio file path
-AUDIO_FILE = "test_audio.mp3"
+AUDIO_FILE = "test_audio.mp3"  #enter audio file location
 
 # Initialize pygame for audio playback
 pygame.mixer.init()
